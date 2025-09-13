@@ -1,7 +1,7 @@
 {
   "name": "yash-devfolio",
   "version": "0.1.0",
-  "homepage": "https://yashthakare93.github.io/yash-devfolio",
+  "homepage": "https://yashthakare93.github.io",
   "description": "Personal portfolio website built with React and Tailwind CSS.",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
    "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   "deploy": "gh-pages -d build -b main",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

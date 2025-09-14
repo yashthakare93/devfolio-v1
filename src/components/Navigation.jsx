@@ -130,7 +130,7 @@ const Navigation = () => {
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 0.5 }}
-                                    href="/resume.pdf"
+                                    href="/devfolio-v1/resume.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="mt-8 px-6 py-4 text-green border border-green rounded text-sm font-mono transition-all duration-300 hover:bg-green/10"

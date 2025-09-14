@@ -15,7 +15,7 @@ import flexLingo4 from '../assets/images/projects/2/f4.png';
 export const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Work', href: '#work' },
-  { name: 'Blogs', href: '#blogs' },
+  { name: 'Blogs', href: '#blog' },
   { name: 'Contact', href: '#contact' },
 ];
 

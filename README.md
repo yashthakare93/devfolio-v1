@@ -54,7 +54,7 @@ This is my personal portfolio website where I showcase my work as a developer. T
 ## 📞 Contact
 
 **Yash Thakare**
-- **Email**: [your.email@example.com](mailto:thakareyash74@gmail.com)
+- **Email**: [thakareyash74@gmail.com](mailto:thakareyash74@gmail.com)
 - **LinkedIn**: [linkedin.com/in/yashthakare](https://www.linkedin.com/in/yash-thakare01/)
 - **GitHub**: [github.com/yashthakare93](https://github.com/yashthakare93)
 

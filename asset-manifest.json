@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/v1devfolio/static/css/main.35cf9aa7.css",
-    "main.js": "/v1devfolio/static/js/main.88831cd7.js",
-    "index.html": "/v1devfolio/index.html",
-    "main.35cf9aa7.css.map": "/v1devfolio/static/css/main.35cf9aa7.css.map",
-    "main.88831cd7.js.map": "/v1devfolio/static/js/main.88831cd7.js.map"
+    "main.css": "/devfolio-v1/static/css/main.b7a0e264.css",
+    "main.js": "/devfolio-v1/static/js/main.fcf6da0f.js",
+    "static/media/logo.png": "/devfolio-v1/static/media/logo.3f1cf7e29d258ac71e81.png",
+    "static/media/f2.png": "/devfolio-v1/static/media/f2.de68c22a8a3848d89b8b.png",
+    "static/media/f1.jpg": "/devfolio-v1/static/media/f1.6c6ba242761624040fe7.jpg",
+    "static/media/p4.png": "/devfolio-v1/static/media/p4.fc588910bb7568d228b4.png",
+    "static/media/article1.pdf": "/devfolio-v1/static/media/article1.85ef5834ac02758fd643.pdf",
+    "static/media/p1.png": "/devfolio-v1/static/media/p1.6d74080434f09d3fa9c0.png",
+    "static/media/p2.png": "/devfolio-v1/static/media/p2.d80603f014d78dd396ae.png",
+    "static/media/p3.png": "/devfolio-v1/static/media/p3.5c60fe494159bea69483.png",
+    "static/media/p5.png": "/devfolio-v1/static/media/p5.c473d4c4e19ddf6c4639.png",
+    "static/media/p6.png": "/devfolio-v1/static/media/p6.eca6ad72245fd32623b3.png",
+    "static/media/class loading subsystem.drawio.png": "/devfolio-v1/static/media/class loading subsystem.drawio.68183fdcdc6f53ecd9bf.png",
+    "static/media/yashthakare.jpeg": "/devfolio-v1/static/media/yashthakare.57e8d253dae6abe40429.jpeg",
+    "static/media/JVM-Arcitecture.drawio.png": "/devfolio-v1/static/media/JVM-Arcitecture.drawio.0500942fcd5a1dd5003c.png",
+    "static/media/f4.png": "/devfolio-v1/static/media/f4.db74d5a01c24a083b526.png",
+    "static/media/f3.png": "/devfolio-v1/static/media/f3.eb0d5122b236709d60ba.png",
+    "static/media/Runtime Data Area.drawio.png": "/devfolio-v1/static/media/Runtime Data Area.drawio.56e86cda22b1d4a5dd19.png",
+    "static/media/EE.drawio.png": "/devfolio-v1/static/media/EE.drawio.20f4145f4e3002f0490a.png",
+    "index.html": "/devfolio-v1/index.html",
+    "main.b7a0e264.css.map": "/devfolio-v1/static/css/main.b7a0e264.css.map",
+    "main.fcf6da0f.js.map": "/devfolio-v1/static/js/main.fcf6da0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.35cf9aa7.css",
-    "static/js/main.88831cd7.js"
+    "static/css/main.b7a0e264.css",
+    "static/js/main.fcf6da0f.js"
   ]
 }

@@ -4,7 +4,7 @@ Personal portfolio website built with React and Tailwind CSS, showcasing my proj
 
 ## 🌐 Live Demo
 
-**[View Portfolio](https://yashthakare93.github.io/)**
+**[View Portfolio](https://yashthakare93.github.io/devfolio-v1)**
 
 ## 📝 Description
 
@@ -23,12 +23,12 @@ This is my personal portfolio website where I showcase my work as a developer. T
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/yashthakare93/yashthakare93.github.io.git
+   git clone https://github.com/yashthakare93/devfolio-v1.git
    ```
 
 2. **Navigate to the folder**
    ```bash
-   cd yashthakare93.github.io
+   cd devfolio-v1
    ```
 
 3. **Install dependencies**

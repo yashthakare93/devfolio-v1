@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Eye, Calendar, FileText } from 'lucide-react';
-import { featuredBlogs, recentBlogs } from '../data/blogs'; // Ensure path is correct
+import { Eye, Calendar } from 'lucide-react';
+import { featuredBlogs  } from '../data/blogs'; // Ensure path is correct
 
 const Blog = () => {
     return (
@@ -16,7 +16,7 @@ const Blog = () => {
         >
             <div className="flex items-center gap-4 mb-16">
                 <span className="text-green font-mono text-xl">03.</span>
-                <h2 className="text-3xl font-semibold text-lightest-slate">My Thoughts & Articles</h2>
+                <h2 className="text-3xl font-semibold text-lightest-slate">Blogs & Articles</h2>
                 <div className="hidden sm:block h-px w-48 bg-lightest-navy"></div>
             </div>
 
@@ -89,54 +89,6 @@ const Blog = () => {
                 })}
             </div>
 
-            {/* Recent Blogs */}
-            {/* <div className="mt-32">
-                <div className="text-center mb-12">
-                    <h3 className="text-lightest-slate text-3xl font-semibold">More From The Blog</h3>
-                </div>
-                <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    {recentBlogs.map((blog, i) => (
-                        <motion.div
-                            key={blog.slug}
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: i * 0.1 }}
-                            viewport={{ once: true }}
-                        >
-                            <Link
-                                to={`/blog/${blog.slug}`}
-                                className="group bg-light-navy rounded-lg p-7 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-green/10 cursor-pointer flex flex-col h-full block"
-                            >
-                                <div className="flex-grow">
-                                    <div className="flex justify-between items-start mb-6">
-                                        <FileText className="text-green" size={36} />
-                                        <div className="flex items-center gap-2 font-mono text-xs text-light-slate">
-                                            <Calendar size={14} />
-                                            <span>{blog.date}</span>
-                                        </div>
-                                    </div>
-                                    <h4 className="text-lightest-slate text-xl font-bold mb-3 group-hover:text-green transition-colors">
-                                        {blog.title}
-                                    </h4>
-                                    <p className="text-light-slate text-base leading-relaxed line-clamp-3">
-                                        {blog.description}
-                                    </p>
-                                </div>
-                                <div className="flex flex-wrap gap-2 mt-6 pt-4 border-t border-lightest-navy/30">
-                                    {blog.tags.map(tag => (
-                                        <span
-                                            key={tag}
-                                            className="px-3 py-1 bg-navy text-light-slate font-mono text-xs rounded-full"
-                                        >
-                                            {tag}
-                                        </span>
-                                    ))}
-                                </div>
-                            </Link>
-                        </motion.div>
-                    ))}
-                </div>
-            </div> */}
         </motion.section>
     );
 };

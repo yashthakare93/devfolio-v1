@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { navLinks } from '../data/constants';
+import logo from '../assets/images/logo.png';
 
 const Navigation = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -48,7 +49,7 @@ const Navigation = () => {
                         className="cursor-pointer"
                         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     >
-                        <img src="/logo.ico" alt="Logo" className="h-12 w-auto" />
+                        <img src={logo} alt="Logo" className="h-12 w-auto" />
                     </motion.div>
 
                     {/* Desktop Navigation */}

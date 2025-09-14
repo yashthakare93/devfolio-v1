@@ -1,7 +1,7 @@
+// src/App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Import your components
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,41 +12,35 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BlogList from './components/Blog'; 
 import BlogDetail from './components/BlogDetail';
+import ProjectDetail from './components/ProjectDetail';
 
-// This new component will render all the sections for your homepage
 const HomePage = () => (
   <>
     <Hero />
     <About />
     <Projects />
-    <BlogList /> {/* You can keep the blog list preview on the homepage */}
+    <BlogList />
     <Contact />
   </>
 );
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/devfolio-v1">
       <div className="bg-navy text-lightest-slate min-h-screen overflow-x-hidden relative">
-        {/* These components will appear on every page */}
         <Navigation />
         <SocialLinks />
         <ContactEmail />
 
         <main>
           <Routes>
-            {/* Route for the homepage */}
             <Route path="/" element={<HomePage />} />
-            
-            {/* Route specifically for the blog list page */}
+            <Route path="/project/:slug" element={<ProjectDetail />} />
             <Route path="/blog" element={<BlogList />} />
-            
-            {/* Route for displaying a single, detailed blog post */}
             <Route path="/blog/:slug" element={<BlogDetail />} />
           </Routes>
         </main>
-
-        {/* Footer will appear on every page */}
+        
         <Footer />
       </div>
     </BrowserRouter>

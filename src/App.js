@@ -1,6 +1,5 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Hero from './components/Hero';
 import About from './components/About';
@@ -10,7 +9,7 @@ import SocialLinks from './components/SocialLinks';
 import ContactEmail from './components/ContactEmail';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import BlogList from './components/Blog'; 
+import BlogList from './components/Blog';
 import BlogDetail from './components/BlogDetail';
 import ProjectDetail from './components/ProjectDetail';
 
@@ -26,7 +25,7 @@ const HomePage = () => (
 
 function App() {
   return (
-    <BrowserRouter basename="/devfolio-v1">
+    <HashRouter>
       <div className="bg-navy text-lightest-slate min-h-screen overflow-x-hidden relative">
         <Navigation />
         <SocialLinks />
@@ -43,7 +42,7 @@ function App() {
         
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

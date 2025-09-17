@@ -1,7 +1,7 @@
 {
   "name": "yash-devfolio",
   "version": "0.1.0",
-  "homepage": "https://yashthakare93.github.io/devfolio-v1/",
+ "homepage": "https://yashthakare.xyz",
   "description": "Personal portfolio website built with React and Tailwind CSS.",
   "private": true,
   "dependencies": {

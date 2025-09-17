@@ -7,6 +7,8 @@ import runTimeDataAreaImg from '../assets/images/articles/Runtime Data Area.draw
 import executionEngineImg from '../assets/images/articles/EE.drawio.png';
 import article1 from '../assets/images/articles/article1.pdf';
 
+
+
 export const featuredBlogs = [
     {
         slug: 'deep-dive-into-jvm-architecture',
@@ -27,7 +29,7 @@ export const featuredBlogs = [
             'Backend Development',
             'Performance Tuning',
             'Bytecode'
-        ], // FIXED: Added missing comma
+        ], 
 
         content: [
             { type: 'h2', children: 'What is the JVM?' },
@@ -112,5 +114,65 @@ export const featuredBlogs = [
             { type: 'h2', children: 'Conclusion' },
             { type: 'p', children: 'From loading bytecode with the ClassLoader to managing memory in the Runtime Data Area and finally executing code with the Execution Engine, every part of the JVM architecture works together to make Java\'s "write once, run anywhere" philosophy a reality.' },
         ],
-    }
+    },
+    // {
+    //     slug: 'introduction-to-sql',
+    //     title: 'Introduction to SQL',
+    //     pdfUrl:null ,
+    //     description: 'Learn the fundamentals of SQL, its types, where it is used, and why it is essential for data management in applications and businesses.',
+    //     image:null ,
+    //     date: 'September 17, 2025',
+    //     author: 'Yash Thakare',
+    //     tags: [
+    //         'SQL',
+    //         'Databases',
+    //         'Data Management',
+    //         'Backend Development',
+    //         'Data Analysis',
+    //         'Relational Databases',
+    //         'Query Language'
+    //     ],
+
+    //     content: [
+    //         { type: 'h2', children: 'What is SQL?' },
+    //         { type: 'p', children: 'SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. It allows developers and analysts to create, read, update, and delete data stored in tables.' },
+
+    //         { type: 'h2', children: 'Why SQL is Important?' },
+    //         { type: 'p', children: 'SQL is crucial for managing structured data in relational databases. It is widely used in applications, analytics, data processing, and business operations. SQL provides a reliable and efficient way to query and modify data.' },
+
+    //         { type: 'h2', children: 'Types of SQL Commands' },
+    //         // { type: 'image', src: sqlTypesImg, alt: 'SQL Command Types', className: 'my-4 bg-white px-5 py-5' },
+    //         { type: 'ul', children: [
+    //             'DDL (Data Definition Language): CREATE, ALTER, DROP – used to define or modify database structures.',
+    //             'DML (Data Manipulation Language): INSERT, UPDATE, DELETE – used to manipulate data within tables.',
+    //             'DCL (Data Control Language): GRANT, REVOKE – used to manage permissions and access controls.',
+    //             'TCL (Transaction Control Language): COMMIT, ROLLBACK – used to manage transactions in a database.'
+    //         ]},
+
+    //         { type: 'h2', children: 'Where SQL is Used?' },
+    //         // { type: 'image', src: sqlUsageImg, alt: 'SQL Usage', className: 'my-4 bg-white px-5 py-5' },
+    //         { type: 'p', children: 'SQL is used wherever structured data needs to be stored, accessed, or analyzed. Common use cases include:' },
+    //         { type: 'ul', children: [
+    //             'Web applications and websites for storing user data, products, orders, etc.',
+    //             'Mobile apps for user preferences, authentication, and data storage.',
+    //             'Data analysis and business intelligence for generating reports and insights.',
+    //             'Enterprise software such as HR systems, accounting software, and inventory management.',
+    //             'Cloud-based databases like AWS RDS, Google Cloud SQL, and Azure SQL Database.',
+    //             'Academic and research databases for experiments, surveys, and project data.'
+    //         ]},
+
+    //         { type: 'h2', children: 'Career Opportunities with SQL' },
+    //         { type: 'p', children: 'SQL is a foundational skill for many tech roles. Careers where SQL is essential include:' },
+    //         { type: 'ul', children: [
+    //             'Backend Developer',
+    //             'Data Analyst / Data Scientist',
+    //             'Database Administrator (DBA)',
+    //             'Full Stack Developer',
+    //             'Business Intelligence Specialist'
+    //         ]},
+
+    //         { type: 'h2', children: 'Conclusion' },
+    //         { type: 'p', children: 'SQL remains one of the most important skills for anyone working with data. Understanding SQL and its applications allows you to efficiently manage databases, extract insights, and build robust software solutions.' },
+    //     ],
+    // }
 ];
